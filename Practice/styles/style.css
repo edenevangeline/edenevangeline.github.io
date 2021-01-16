@@ -1,0 +1,32 @@
+html {
+    font-size: 40px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #6c5555;
+  }
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #6c5555;
+    text-shadow: 1px 1px 1px gray;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #D8C9CC;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }

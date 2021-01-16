@@ -1,0 +1,69 @@
+body,
+html {
+  height: 100%;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  body p,
+  html p {
+    text-align: center; }
+
+.navbar {
+  margin-bottom: -2px; }
+
+.jumbotron {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.designtrends.com/wp-content/uploads/2016/01/27123253/Black-and-White-Forest-Background11.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.header, .header1, .header-mbti, .header-mbti-1 {
+  text-align: center; }
+
+.header1 {
+  margin-top: 60px;
+  color: white; }
+
+.header-mbti {
+  margin-top: 35px; }
+
+.header-mbti-1 {
+  margin-top: 75px; }
+
+.p-mbti {
+  margin-top: 40px;
+  text-align: center; }
+
+.p-mbti2 {
+  margin-top: 20 px;
+  text-align: center; }
+
+.button {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.btn-type {
+  text-align: center;
+  margin-bottom: 15px; }
+
+.paragraph {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  color: white;
+  text-shadow: 0 1px 0 black; }
+
+.item-textp3:hover {
+  background-color: lightgray; }
+
+@media screen and (max-width: 600px) {
+  div table {
+    font-size: 10.5px; } }
+#footer {
+  height: 34px;
+  position: relative;
+  bottom: 34px;
+  background-color: #393f44;
+  width: 100%;
+  text-align: center;
+  color: lightgray; }
+
+/*# sourceMappingURL=style.css.map */

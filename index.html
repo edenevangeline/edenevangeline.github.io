@@ -1,62 +1,151 @@
 <!DOCTYPE html>
 <html>
-<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mozilla splash page</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      /* header and body setup */
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="The MBTI tool will help you reach a new level of self-awareness that can propel you forward in any organizational setting.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MBTI Tool</title>
-  <link rel="shortcut icon" href="img/project0favicon.png" />
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-</head>
+      html {
+        font-family: 'Open Sans', sans-serif;
+        background: url(pattern.png);
+      }
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">MBTI Tool</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page1.html">Why MBTI</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page2.html">Find My Type</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page3.html">Learn More</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
 
-  <div class="jumbotron text-center">
-    <div class="container">
-      <h1 class="header1">Welcome To Self Discovery</h1>
-      <p class="paragraph">The MBTI tool will help you reach a new level of self-awareness that can propel you forward in any organizational setting.</p>
-      <a href="page1.html" class="btn btn-dark">Discover More</a>
-    </div>
-  </div>
+      /* Header styling */
 
+      header {
+        height: 150px;
+      }
 
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      h1 {
+        font-size: 50px;
+        line-height: 140px;
+        margin: 0 0 0 32.5px;
+      }
 
-</body>
-<div id="footer">
-  <small>© 2020 Eden Chaves. All rights reserved. </small>
-</div>
+      /* main section and video styling */
 
+      main {
+        background: #ccc;
+      }
+
+      article {
+        padding: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+
+      /* further info links */
+
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #c13832;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+
+      .further-info a {
+        width: 25%;
+        display: block;
+        float: left;
+      }
+
+      .further-info img {
+        max-width: 100%;
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+      /* Red panda image */
+
+      .red-panda img {
+        display: block;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mozilla</h1>
+      <!-- insert <img> element, link to the small
+          version of the Firefox logo -->
+        <img src="firefox_logo-only_RGB120.png">
+
+    </header>
+
+    <main>
+      <article>
+        <!-- insert iframe from youtube -->
+        <iframe width="400" height="" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Rocking the free web</h2>
+
+        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+        <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://www.flickr.com/photos/mathiasappel/21675551065/">Red panda picture</a> by Mathias Appel.</p>
+      </article>
+
+      <div class="further-info">
+        <!-- insert images with srcsets and sizes -->
+        <a href="https://www.mozilla.org/en-US/firefox/new/">
+          <img srcset="firefox_logo-only_RGB400.png 400w,
+                       firefox_logo-only_RGB120.png 120w"
+                sizes="(min-width: 50px) 400px, 120px"
+          src="firefox_logo-only_RGB400.png" alt="The firefox logo: a fox engulfing the planet">
+        </a>
+        <a href="https://www.mozilla.org/">
+          <img src="mozilla-dinosaur-head400.png" alt="A red dinosaur head">
+        </a>
+        <a href="https://addons.mozilla.org/">
+          <img src="firefox-addons400.jpg" alt="firefox logo as a puzzle">
+        </a>
+        <a href="https://developer.mozilla.org/en-US/">
+          <img src="mdn.svg" alt="A map with a dinosaur on it">
+        </a>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="red-panda">
+        <!-- insert picture element -->
+        <picture>
+            <source media="(max-width: 799px)" srcset="red-panda600.jpg">
+            <source media="(min-width: 800px)" srcset="red-panda1200.jpg">
+            <img src="red-panda1200.jpg" alt="A cute red panda">
+            </picture>
+      </div>
+
+    </main>
+  </body>
 </html>

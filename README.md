@@ -1,3 +1,3 @@
-# Project 0
+# Practice
 
-Web Programming with Python and JavaScript
+Some practice files
